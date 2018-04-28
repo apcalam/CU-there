@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		FFCE6F9C2093F5B20026569C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCE6F9B2093F5B20026569C /* AppDelegate.swift */; };
 		FFCE6F9E2093F5B20026569C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCE6F9D2093F5B20026569C /* ViewController.swift */; };
-		FFCE6FA12093F5B20026569C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCE6F9F2093F5B20026569C /* Main.storyboard */; };
 		FFCE6FA32093F5B40026569C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCE6FA22093F5B40026569C /* Assets.xcassets */; };
 		FFCE6FA62093F5B40026569C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCE6FA42093F5B40026569C /* LaunchScreen.storyboard */; };
+		FFCE6FB620940D490026569C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCE6FB520940D490026569C /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFCE6F982093F5B10026569C /* CU-There.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CU-There.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCE6F9B2093F5B20026569C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFCE6F9D2093F5B20026569C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFCE6FA02093F5B20026569C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFCE6FA22093F5B40026569C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFCE6FA52093F5B40026569C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFCE6FA72093F5B40026569C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCE6FB520940D490026569C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,23 @@
 		FFCE6F9A2093F5B20026569C /* CU-There */ = {
 			isa = PBXGroup;
 			children = (
-				FFCE6F9B2093F5B20026569C /* AppDelegate.swift */,
-				FFCE6F9D2093F5B20026569C /* ViewController.swift */,
-				FFCE6F9F2093F5B20026569C /* Main.storyboard */,
+				FFCE6FB520940D490026569C /* Event.swift */,
+				FFCE6FB420940CEE0026569C /* Layouts */,
 				FFCE6FA22093F5B40026569C /* Assets.xcassets */,
 				FFCE6FA42093F5B40026569C /* LaunchScreen.storyboard */,
 				FFCE6FA72093F5B40026569C /* Info.plist */,
 			);
 			path = "CU-There";
+			sourceTree = "<group>";
+		};
+		FFCE6FB420940CEE0026569C /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE6F9B2093F5B20026569C /* AppDelegate.swift */,
+				FFCE6F9D2093F5B20026569C /* ViewController.swift */,
+			);
+			name = Layouts;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +133,6 @@
 			files = (
 				FFCE6FA62093F5B40026569C /* LaunchScreen.storyboard in Resources */,
 				FFCE6FA32093F5B40026569C /* Assets.xcassets in Resources */,
-				FFCE6FA12093F5B20026569C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +145,13 @@
 			files = (
 				FFCE6F9E2093F5B20026569C /* ViewController.swift in Sources */,
 				FFCE6F9C2093F5B20026569C /* AppDelegate.swift in Sources */,
+				FFCE6FB620940D490026569C /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FFCE6F9F2093F5B20026569C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFCE6FA02093F5B20026569C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FFCE6FA42093F5B40026569C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
